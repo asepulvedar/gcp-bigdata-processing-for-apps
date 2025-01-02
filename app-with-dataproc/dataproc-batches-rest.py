@@ -8,7 +8,7 @@ from google.auth.transport.requests import Request
 PROJECT_ID = "your-project-id"
 REGION = "ypur-region"
 BATCH_ID = "serverless-job-from-rest-api"
-PYSPARK_MAIN_FILE_URI = "gs://us-central1-cpr-cs-ingdat-c-b912db76-bucket/jobs/python-scikit-learn-job-writebq-bqapi.py"
+PYSPARK_MAIN_FILE_URI = "your-pythonfile-cloud-storage-uri"
 PYPSPARK_JOB_ARGS = ["1"]
 
 CONTAINER_IMAGE = f"us-central1-docker.pkg.dev/{PROJECT_ID}/YOUR-DOCKER-REPO/YOUR-DOCKER-IMAGE"
